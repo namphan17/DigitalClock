@@ -1,0 +1,15 @@
+﻿<Window x:Class="DigitalClock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DigitalClock"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="330" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" ShowInTaskbar="False" Closing="Window_Closing">
+    <Grid MouseDown="Grid_MouseDown">
+        <Label x:Name="lbl_hour" Content="88:88" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="/DigitalClock;component/Fonts/#High speed" FontSize="70" Width="310" Height="101" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lbl_date" Content="Wednesday, 31 - 12 - 1017" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Chiller" FontSize="20" Width="310" Height="49" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lbl_date_Copy" Content="I love Giselle &lt;3" HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Ravie" FontSize="30" Width="310" Height="49" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
